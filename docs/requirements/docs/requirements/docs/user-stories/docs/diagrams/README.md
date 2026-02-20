@@ -1,7 +1,8 @@
-# Диаграммы проекта
+## Диаграммы проекта
 
-## Use Case Diagram (Диаграмма вариантов использования)
-![Use Case Diagram](use-case.png)
+### Use Case Diagram (Диаграмма вариантов использования)
+
+[![Use Case Diagram](docs/requirements/docs/requirements/docs/user-stories/docs/diagrams/use-case-diagram.png.drawio.png)](docs/requirements/docs/requirements/docs/user-stories/docs/diagrams/use-case-diagram.png.drawio.png)
 
 **Акторы:**
 - **Гость** — ищет и бронирует столики
@@ -13,8 +14,11 @@
 - Администратор: просмотр броней → подтверждение → отклонение
 - Владелец: настройка правил → просмотр статистики
 
-## Activity Diagram (Диаграмма деятельности)
-![Activity Diagram](activity-diagram.png)
+---
+
+### Activity Diagram (Диаграмма деятельности)
+
+[![Activity Diagram](docs/requirements/docs/requirements/docs/user-stories/docs/diagrams/Activity%20Diagram.drawio(1).png)](docs/requirements/docs/requirements/docs/user-stories/docs/diagrams/Activity%20Diagram.drawio(1).png)
 
 **Процесс:** Бронирование столика с оплатой депозита
 
@@ -25,24 +29,30 @@
 4. Гость вводит данные
 5. Система перенаправляет на оплату
 6. Проверка статуса оплаты:
-   - Успех → бронь подтверждена → уведомления
-   - Ошибка → бронь отменена → сообщение гостю
+   - ✅ Успех → бронь подтверждена → уведомления
+   - ❌ Ошибка → бронь отменена → сообщение гостю
 
-## BPMN-схема
-![BPMN Diagram](bpmn.png)
+---
 
-Описывает сквозной процесс:
-- Пул "Гость"
-- Пул "Система"
-- Пул "Платежный шлюз"
-- Пул "Ресторан"
+### BPMN-схема
 
-## ER-диаграмма
-![ER Diagram](er-diagram.png)
+[![BPMN Diagram](docs/requirements/docs/requirements/docs/user-stories/docs/diagrams/BPMN%20diagram.png)](docs/requirements/docs/requirements/docs/user-stories/docs/diagrams/BPMN%20diagram.png)
+
+**Описывает сквозной процесс:**
+- **Пул "Гость"**
+- **Пул "Система"**
+- **Пул "Платежный шлюз"**
+- **Пул "Ресторан"**
+
+---
+
+### ER-диаграмма
+
+[![ER Diagram](docs/requirements/docs/requirements/docs/user-stories/docs/diagrams/ER-diagram.png)](docs/requirements/docs/requirements/docs/user-stories/docs/diagrams/ER-diagram.png)
 
 **Сущности:**
-- Users (id, имя, телефон, email)
-- Restaurants (id, название, адрес, рейтинг)
-- Bookings (id, user_id, restaurant_id, дата, время, сумма)
-- Payments (id, booking_id, статус, дата)
-- Settings (id, restaurant_id, день_недели, процент)
+- **Users** (id, имя, телефон, email)
+- **Restaurants** (id, название, адрес, рейтинг)
+- **Bookings** (id, user_id, restaurant_id, дата, время, сумма)
+- **Payments** (id, booking_id, статус, дата)
+- **Settings** (id, restaurant_id, день_недели, процент)
