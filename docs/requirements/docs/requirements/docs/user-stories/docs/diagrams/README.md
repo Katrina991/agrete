@@ -2,7 +2,7 @@
 
 ### Use Case Diagram (Диаграмма вариантов использования)
 
-[![Use Case Diagram](docs/requirements/docs/requirements/docs/user-stories/docs/diagrams/use-case-diagram.png.drawio.png)](docs/requirements/docs/requirements/docs/user-stories/docs/diagrams/use-case-diagram.png.drawio.png)
+[![Use Case Diagram](docs/requirements/docs/requirements/docs/user-stories/docs/diagrams/use-case-diagram.png.drawio.png)
 
 **Акторы:**
 - **Гость** — ищет и бронирует столики
