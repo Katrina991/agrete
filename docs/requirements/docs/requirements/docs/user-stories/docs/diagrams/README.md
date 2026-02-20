@@ -2,7 +2,7 @@
 
 ### Use Case Diagram (Диаграмма вариантов использования)
 
-[![Use Case Diagram](docs/requirements/docs/requirements/docs/user-stories/docs/diagrams/use-case-diagram.png.drawio.png)
+[![Use Case Diagram](docs/requirements/docs/requirements/docs/user-stories/docs/diagrams/use-case-diagram.png.drawio.png)}
 
 **Акторы:**
 - **Гость** — ищет и бронирует столики
@@ -18,8 +18,7 @@
 
 ### Activity Diagram (Диаграмма деятельности)
 
-[![Activity Diagram](docs/requirements/docs/requirements/docs/user-stories/docs/diagrams/Activity%20Diagram.drawio(1).png)](docs/requirements/docs/requirements/docs/user-stories/docs/diagrams/Activity%20Diagram.drawio(1).png)
-
+[![Activity Diagram](docs/requirements/docs/requirements/docs/user-stories/docs/diagrams/Activity%20Diagram.drawio(1).png)]
 **Процесс:** Бронирование столика с оплатой депозита
 
 **Шаги:**
@@ -36,8 +35,7 @@
 
 ### BPMN-схема
 
-[![BPMN Diagram](docs/requirements/docs/requirements/docs/user-stories/docs/diagrams/BPMN%20diagram.png)](docs/requirements/docs/requirements/docs/user-stories/docs/diagrams/BPMN%20diagram.png)
-
+[![BPMN Diagram](docs/requirements/docs/requirements/docs/user-stories/docs/diagrams/BPMN%20diagram.png)]
 **Описывает сквозной процесс:**
 - **Пул "Гость"**
 - **Пул "Система"**
@@ -48,7 +46,7 @@
 
 ### ER-диаграмма
 
-[![ER Diagram](docs/requirements/docs/requirements/docs/user-stories/docs/diagrams/ER-diagram.png)](docs/requirements/docs/requirements/docs/user-stories/docs/diagrams/ER-diagram.png)
+[![ER Diagram](docs/requirements/docs/requirements/docs/user-stories/docs/diagrams/ER-diagram.png)]
 
 **Сущности:**
 - **Users** (id, имя, телефон, email)
